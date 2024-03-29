@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main(){
+	int i,n,fact=1;
+	printf("Enter a positive number ");
+	scanf("%d",&n);
+	for(i=1;i<=n;i++){
+		fact=fact*i;
+	}
+	printf("factorial of %d is : %d",n,fact);
+	return 0;
+}
+OUTPUT;
+Enter a positive number 4
+factorial of 4 is : 24
+--------------------------------
+Process exited after 3.526 seconds with return value 0
+Press any key to continue . . .

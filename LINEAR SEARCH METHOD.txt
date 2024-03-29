@@ -1,0 +1,23 @@
+#include<stdio.h>
+main(){
+	int A[5]={10,20,30,40,50},i;
+	int key,flag=0;
+	printf("Enter the serch key");
+	scanf("%d",&key);
+	for(i=0;i<5;i++){
+		if(key==A[i]){
+			flag=1;
+			break;
+		}
+	}
+	if(flag==1)
+	printf("key is found");
+	else
+	printf("key is not found");
+}
+OUTPUT;
+Enter the serch key40
+key is found
+--------------------------------
+Process exited after 5.502 seconds with return value 0
+Press any key to continue . . .
